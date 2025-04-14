@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useSearchParams } from 'next/navigation';
 import { useForm, SubmitHandler, useFieldArray } from "react-hook-form"
-import { z } from "zod";
+// import { z } from "zod";
+import { Suspense } from "react"
 
 // const schema = z.object({
 //     profileURL: z.string().url({
@@ -87,6 +88,7 @@ export default function Home() {
     }
 
     return (
+        <Suspense>
         <div className="flex">
             <div className="left w-2/3  pl-6 pt-6 items-start justify-start flex flex-col">
                 <h1 className="font-extrabold text-3xl">Create your Tree</h1>
@@ -264,5 +266,6 @@ export default function Home() {
                 </div>
             </div>
         </div>
+        </Suspense>
     )
 }
