@@ -18,7 +18,7 @@ const Navbar = () => {
 
                 <li className='navBarHover p-2 text-[20px] font-bold hover:bg-[#535353]'>
                     <Link href="/aadimgyawali">
-                        Aadim Gyawali
+                        View Example Website
                     </Link>
                 </li>
                 <li>Tech Stack - Next JS, React JS, MongoDB, Tailwind CSS</li>
