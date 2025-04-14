@@ -2,7 +2,8 @@
 Linktree Clone which allows you to connect multiple socialmedia at one place
 ![img2](https://github.com/user-attachments/assets/e0d82f9e-931c-47d6-bb18-87237945a1a6)
 ![img4](https://github.com/user-attachments/assets/6b2f7018-9627-4b02-9a0a-597319db6884)
-![img5](https://github.com/user-attachments/assets/34741e0a-fc0d-47dc-bddf-14decaf69c50)
+![img5](https://github.com/user-attachments/assets/a55e154e-79fc-44dd-a761-c9483d9b7c62)
+
 
 # Installation 🚀
 Open this directory, in your terminal and make sure you have node js installed.
