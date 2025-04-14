@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.navBarHover{
+  @apply cursor-pointer rounded-2xl 
+}
+
+.textBox{
+  @apply py-2 px-4 h-[32px] rounded-2xl bg-white text-black 
+}
+
+.btn{
+  @apply cursor-pointer h-[64px] py-3 px-4 flex justify-center items-center bg-[#194bfd] hover:bg-blue-800 text-[20px] font-extrabold rounded-full
+}
